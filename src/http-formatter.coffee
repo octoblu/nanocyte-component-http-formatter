@@ -1,7 +1,7 @@
 ReturnValue = require 'nanocyte-component-return-value'
 _ = require 'lodash'
 
-class HttpNode extends ReturnValue
+class HttpFormatter extends ReturnValue
   onEnvelope: (envelope) =>
     { config } = envelope
     { url , bodyValues , method, queryValues , headerValues, headerKeys , bodyEncoding , bodyKeys , queryKeys} = config
@@ -32,4 +32,4 @@ class HttpNode extends ReturnValue
 
     return params
 
-module.exports = HttpNode
+module.exports = HttpFormatter

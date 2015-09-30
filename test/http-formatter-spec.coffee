@@ -1,9 +1,9 @@
 ReturnValue = require 'nanocyte-component-return-value'
-HttpNode = require '../src/http-node'
+HttpFormatter = require '../src/http-formatter'
 
-describe 'HttpNode', ->
+describe 'HttpFormatter', ->
   beforeEach ->
-    @sut = new HttpNode
+    @sut = new HttpFormatter
 
   it 'should exist', ->
     expect(@sut).to.be.an.instanceOf ReturnValue

@@ -1,2 +1,2 @@
 require('coffee-script/register');
-module.exports = require('./src/http-node');
+module.exports = require('./src/http-formatter');
