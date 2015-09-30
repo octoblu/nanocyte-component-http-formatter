@@ -1,0 +1,46 @@
+{
+  "name": "nanocyte-component-http-node",
+  "version": "1.0.0",
+  "description": "Nanocyte component http-node",
+  "keywords": [
+    "nanocyte",
+    "octoblu",
+    "meshblu"
+  ],
+  "homepage": "https://github.com/octoblu/nanocyte-component-http-node",
+  "bugs": "https://github.com/octoblu/nanocyte-component-http-node/issues",
+  "author": {
+    "name": "Octoblu",
+    "url": "https://github.com/octoblu"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/octoblu/nanocyte-component-http-node.git"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec"
+  },
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "lodash": "^3.10.1",
+    "nanocyte-component-return-value": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "codeclimate-test-reporter": "^0.1.1",
+    "coffee-coverage": "^0.6.3",
+    "coffee-script": "^1.10.0",
+    "istanbul": "^0.3.20",
+    "mocha": "^2.3.3",
+    "mocha-istanbul": "^0.2.0",
+    "sinon": "^1.16.1",
+    "sinon-chai": "^2.8.0"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=2.0.0"
+  },
+  "license": "MIT"
+}
