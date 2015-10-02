@@ -1,6 +1,6 @@
 {
   "name": "nanocyte-component-http-formatter",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Nanocyte component http-formatter",
   "keywords": [
     "nanocyte",
@@ -24,7 +24,7 @@
   "dependencies": {
     "coffee-script": "^1.10.0",
     "lodash": "^3.10.1",
-    "nanocyte-component-return-value": "^1.0.0"
+    "nanocyte-component-return-value": "^1.0.2"
   },
   "devDependencies": {
     "chai": "^3.3.0",
